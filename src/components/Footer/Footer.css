@@ -1,0 +1,14 @@
+.app-fixed-bottom {
+    top: auto !important;
+    bottom: 0;
+    z-index: 1;
+}
+
+.footer {
+    padding: 5px;
+    background-color: #F7F6FC !important;
+    color: #333 !important;
+}
+.footer .t-25 {
+    top: -25px
+}

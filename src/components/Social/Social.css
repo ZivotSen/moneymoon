@@ -1,0 +1,30 @@
+.social-menu,
+.social-menu > .social-icon-container,
+.social-menu > .social-icon-container > button:active,
+.social-menu > .social-icon-container > button:focus,
+.social-menu > .social-icon-container > button:hover {
+    transition: all ease-in-out 300ms;
+}
+.social-menu > .social-icon-container > button.social-facebook:active,
+.social-menu > .social-icon-container > button.social-facebook:focus,
+.social-menu > .social-icon-container > button.social-facebook:hover {
+    color: #4267B2;
+}
+.social-menu > .social-icon-container > button.social-twitter:active,
+.social-menu > .social-icon-container > button.social-twitter:focus,
+.social-menu > .social-icon-container > button.social-twitter:hover {
+    color: #1DA1F2;
+}
+.social-menu > .social-icon-container > button.social-instagram:active > span.MuiIconButton-label,
+.social-menu > .social-icon-container > button.social-instagram:focus > span.MuiIconButton-label,
+.social-menu > .social-icon-container > button.social-instagram:hover > span.MuiIconButton-label {
+    background: radial-gradient(circle at 30% 107%, #FDF497 0%, #FDF497 5%, #FD5949 45%, #D6249f 60%, #285AEB 90%);
+    color: #FFF;
+    border-radius: 8px;
+}
+
+@media (min-width: 687px){
+    .social-menu > .social-icon-container {
+        margin: 0 10px;
+    }
+}

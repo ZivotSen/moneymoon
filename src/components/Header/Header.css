@@ -1,0 +1,16 @@
+.site-app-header {
+    flex-grow: 1;
+}
+
+.app-fixed-header {
+    background-color: #9059FD !important;
+    color: #FFFFFF !important;
+    min-height: 95px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+@media (min-width: 992px){
+}
+
+

@@ -1,0 +1,13 @@
+.moon-title {
+    font-size: 5.5rem;
+    font-weight: 400;
+}
+.moon-error {
+    width: 100%;
+    max-width: 135px;
+    padding: 10px 10px 25px;
+}
+.small-title {
+    font-size: 0.8rem;
+    color: rgba(255, 0, 0, .75);
+}

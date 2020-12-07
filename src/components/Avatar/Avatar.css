@@ -1,0 +1,9 @@
+.avatar-container {
+
+}
+.img-avatar {
+    min-width: 80px;
+    width: 80px;
+    border: 1px solid #EEE;
+    border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+.MuiDrawer-paper,
+.MuiDrawer-paperAnchorRight,
+.fullList {
+    width: 100% !important;
+}
+
+.menu-close-button {
+    position: absolute !important;
+    right: 60px;
+    z-index: 1;
+}
+
+@media (max-width: 600px){
+    .fullList > .MuiList-padding {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+@media (min-width: 600px){
+    .menu-close-button {
+        right: 75px;
+    }
+}

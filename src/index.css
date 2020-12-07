@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,106 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  outline: none !important;
+}
+
+/*ICON STYLES*/
+.white-icons {
+  background-size: 130px;
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+}
+.toggle-icon {
+  background-position: -38px -1px;
+}
+.close-icon {
+  background-position: -70px -1px;
+}
+
+/*CONTAINER STYLES*/
+.container-sm {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.container-absolute {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  left: 0;
+}
+.container-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.inner-space {
+  padding-top: 20px;
+  padding-bottom: 145px;
+}
+
+/*FORM STYLES*/
+.general-phone-container {
+  position: relative;
+}
+.general-phone-container .MuiButton-root {
+  min-width: 40px;
+}
+.flag-button-container {
+  min-width: 35px;
+  border-radius: 0;
+}
+.country-image {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.country-name {
+  vertical-align: middle;
+}
+.dial-code {
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 1em;
+  color: #A0A0A0;
+}
+
+.MuiFormControl-root {
+  margin: 10px;
+}
+
+.box-absolute {
+  padding: 10px;
+  background: #FFF;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.box-absolute {
+
+}
+.box-absolute .MuiInput-underline.Mui-focused,
+.box-absolute .MuiInput-underline:not(.Mui-disabled):before,
+.box-absolute .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: none !important;
+}
+
+/*TEXT STYLES*/
+.text-subtitle {
+  color: #808080;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1020px;
+  }
 }

@@ -1,0 +1,11 @@
+.flex-container {
+    display: inline-flex;
+}
+.menu-flex-items > a {
+    white-space: nowrap;
+    display: flex;
+    text-transform: capitalize;
+}
+.menu-flex-items > .MuiListItem-button:hover {
+    background-color: transparent;
+}

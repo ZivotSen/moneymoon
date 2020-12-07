@@ -1,0 +1,11 @@
+.btn-rounded {
+    padding: 0;
+    text-align: center;
+}
+.btn-rounded svg {
+    font-size: 1.5em;
+    color: #FFF
+}
+.btn-rounded > .MuiIconButton-root {
+    padding: 10px;
+}
